@@ -79,7 +79,7 @@
             // richTextBox1
             // 
             this.richTextBox1.Location = new System.Drawing.Point(229, 3);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(210, 29);
             this.richTextBox1.TabIndex = 1;
@@ -95,7 +95,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(313, 57);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(125, 20);
             this.textBox1.TabIndex = 2;
@@ -114,7 +114,7 @@
             // Button2
             // 
             this.Button2.Location = new System.Drawing.Point(8, 474);
-            this.Button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Button2.Margin = new System.Windows.Forms.Padding(2);
             this.Button2.Name = "Button2";
             this.Button2.Size = new System.Drawing.Size(75, 29);
             this.Button2.TabIndex = 4;
@@ -125,7 +125,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(313, 77);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(125, 20);
             this.textBox2.TabIndex = 5;
@@ -133,7 +133,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(313, 121);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(125, 20);
             this.textBox3.TabIndex = 6;
@@ -162,7 +162,7 @@
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(313, 147);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(125, 20);
             this.textBox4.TabIndex = 9;
@@ -180,7 +180,7 @@
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(313, 198);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(125, 20);
             this.textBox5.TabIndex = 11;
@@ -198,7 +198,7 @@
             // bt_tcp_test
             // 
             this.bt_tcp_test.Location = new System.Drawing.Point(17, 64);
-            this.bt_tcp_test.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bt_tcp_test.Margin = new System.Windows.Forms.Padding(2);
             this.bt_tcp_test.Name = "bt_tcp_test";
             this.bt_tcp_test.Size = new System.Drawing.Size(86, 29);
             this.bt_tcp_test.TabIndex = 13;
@@ -209,7 +209,7 @@
             // rtb_tcp
             // 
             this.rtb_tcp.Location = new System.Drawing.Point(15, 323);
-            this.rtb_tcp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rtb_tcp.Margin = new System.Windows.Forms.Padding(2);
             this.rtb_tcp.Name = "rtb_tcp";
             this.rtb_tcp.Size = new System.Drawing.Size(196, 55);
             this.rtb_tcp.TabIndex = 14;
@@ -219,7 +219,7 @@
             // rtb_tcp2
             // 
             this.rtb_tcp2.Location = new System.Drawing.Point(15, 388);
-            this.rtb_tcp2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rtb_tcp2.Margin = new System.Windows.Forms.Padding(2);
             this.rtb_tcp2.Name = "rtb_tcp2";
             this.rtb_tcp2.Size = new System.Drawing.Size(196, 42);
             this.rtb_tcp2.TabIndex = 15;
@@ -228,7 +228,7 @@
             // btsend
             // 
             this.btsend.Location = new System.Drawing.Point(8, 445);
-            this.btsend.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btsend.Margin = new System.Windows.Forms.Padding(2);
             this.btsend.Name = "btsend";
             this.btsend.Size = new System.Drawing.Size(75, 29);
             this.btsend.TabIndex = 17;
@@ -239,7 +239,7 @@
             // KukaPotButton
             // 
             this.KukaPotButton.Location = new System.Drawing.Point(8, 506);
-            this.KukaPotButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.KukaPotButton.Margin = new System.Windows.Forms.Padding(2);
             this.KukaPotButton.Name = "KukaPotButton";
             this.KukaPotButton.Size = new System.Drawing.Size(86, 38);
             this.KukaPotButton.TabIndex = 18;
@@ -250,7 +250,7 @@
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(313, 98);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(125, 20);
             this.textBox6.TabIndex = 19;
@@ -268,7 +268,7 @@
             // textBox7
             // 
             this.textBox7.Location = new System.Drawing.Point(313, 175);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(2);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(125, 20);
             this.textBox7.TabIndex = 21;
@@ -286,7 +286,7 @@
             // tb_ip
             // 
             this.tb_ip.Location = new System.Drawing.Point(15, 131);
-            this.tb_ip.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tb_ip.Margin = new System.Windows.Forms.Padding(2);
             this.tb_ip.Name = "tb_ip";
             this.tb_ip.Size = new System.Drawing.Size(87, 20);
             this.tb_ip.TabIndex = 23;
@@ -295,7 +295,7 @@
             // VrepAdapter
             // 
             this.VrepAdapter.Location = new System.Drawing.Point(124, 98);
-            this.VrepAdapter.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.VrepAdapter.Margin = new System.Windows.Forms.Padding(2);
             this.VrepAdapter.Name = "VrepAdapter";
             this.VrepAdapter.Size = new System.Drawing.Size(86, 29);
             this.VrepAdapter.TabIndex = 24;
@@ -306,7 +306,7 @@
             // YoubotAdapter
             // 
             this.YoubotAdapter.Location = new System.Drawing.Point(15, 98);
-            this.YoubotAdapter.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.YoubotAdapter.Margin = new System.Windows.Forms.Padding(2);
             this.YoubotAdapter.Name = "YoubotAdapter";
             this.YoubotAdapter.Size = new System.Drawing.Size(86, 29);
             this.YoubotAdapter.TabIndex = 25;
@@ -317,7 +317,7 @@
             // richTextBox2
             // 
             this.richTextBox2.Location = new System.Drawing.Point(15, 253);
-            this.richTextBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.richTextBox2.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.Size = new System.Drawing.Size(194, 67);
             this.richTextBox2.TabIndex = 26;
@@ -327,7 +327,7 @@
             // Drive
             // 
             this.Drive.Location = new System.Drawing.Point(73, 29);
-            this.Drive.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Drive.Margin = new System.Windows.Forms.Padding(2);
             this.Drive.Name = "Drive";
             this.Drive.Size = new System.Drawing.Size(82, 31);
             this.Drive.TabIndex = 28;
@@ -339,7 +339,7 @@
             // textBox8
             // 
             this.textBox8.Location = new System.Drawing.Point(37, 177);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(2);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(55, 20);
             this.textBox8.TabIndex = 29;
@@ -349,7 +349,7 @@
             // textBox9
             // 
             this.textBox9.Location = new System.Drawing.Point(134, 177);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox9.Margin = new System.Windows.Forms.Padding(2);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(55, 20);
             this.textBox9.TabIndex = 30;
@@ -378,7 +378,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(449, 3);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(850, 850);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -437,7 +437,7 @@
             this.Controls.Add(this.button1);
             this.DoubleBuffered = true;
             this.Name = "Form1";
-            this.Text = "Margolin Ilan  Youbot control 2017";
+            this.Text = "Margolin Ilan  Youbot control  redesigning  for map mapping ";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
