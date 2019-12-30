@@ -47,12 +47,12 @@ namespace VRepClient
         Graphics g;
         private void timer1_Tick(object sender, EventArgs e)
         {
-            //pictureBox1.Invalidate();
+           //pictureBox1.Invalidate();
             
-                PaintEventArgs p = new PaintEventArgs(pictureBox1.CreateGraphics(), pictureBox1.Bounds); //Компонент на котором нужно рисовать и область на которой нужно рисовать
-            pictureBox1_Paint(sender, p);
+           PaintEventArgs p = new PaintEventArgs(pictureBox1.CreateGraphics(), pictureBox1.Bounds); //Компонент на котором нужно рисовать и область на которой нужно рисовать
+           pictureBox1_Paint(sender, p);
            // pictureBox1_Paint();
-                 // this.Invalidate();
+           // this.Invalidate();
             f2.Invalidate();
             if(ra is VrepAdapter)
             {
@@ -79,14 +79,14 @@ namespace VRepClient
                 Point start = new Point((int)(ra.RobotOdomData[0] * 10 + map.Xmax / 2), (int)(ra.RobotOdomData[1] * 10 + map.Ymax / 2));
                 Point goal = new Point((int)GoalPointX*10+map.Xmax / 2, (int)GoalPointY*10+map.Ymax / 2);
                  
-               // ListPoints = null;
+                // ListPoints = null;
              
-                    ListPoints = SiG.FindPath(map.graph, start, goal); //SearchInGraph.FindPath(map.graph, start, goal);             
+                ListPoints = SiG.FindPath(map.graph, start, goal); //SearchInGraph.FindPath(map.graph, start, goal);             
               
                         
                 if (ListPoints != null)
                 {
-                    SQ.GetNextPoint(ListPoints, ra.RobotOdomData[0], ra.RobotOdomData[1], ra.RobotOdomData[2], map.Xmax, map.Ymax);
+                    SQ.GetNextPoint(ListPoints, ra.RobotOdomData[0], ra.RobotOdomData[1], ra.RobotOdomData[2], map.Xmax, map.Ymax);// ищем "зеленую" точку на пути
 
                     RobDrive.GetDrive(ra.RobotOdomData[0], ra.RobotOdomData[1], ra.RobotOdomData[2], SQ.CurrentPointX, SQ.CurrentPointY, map.Xmax,map.Ymax);
                     ra.Send(RobDrive);

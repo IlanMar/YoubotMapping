@@ -135,20 +135,18 @@ namespace VRepClient
            {
                for (int k2 = 0; k2 < Ymax; k2++) 
                {
-                   graph[k, k2] = 1;
+                   graph[k, k2] = 1;//присваеваем значение 1 всем ячейкам карты
                }
            }
 
-               for (int i = 0; i < GlobalMapList.Count; i++)
-               {
-                   float Tx = GlobalMapList[i].X * 10;
-                   float Ty = GlobalMapList[i].Y * 10;
-                   xmatrix = (int)Math.Floor(Tx);
-                   ymatrix = (int)Math.Floor(Ty);
-
-                   graph[xmatrix + Xmax/2, ymatrix + Ymax/2] = GlobalMapList[i].weight;
-
-               }           
+           for (int i = 0; i < GlobalMapList.Count; i++)
+           {
+              float Tx = GlobalMapList[i].X * 10;
+              float Ty = GlobalMapList[i].Y * 10;
+              xmatrix = (int)Math.Floor(Tx);
+              ymatrix = (int)Math.Floor(Ty);
+              graph[xmatrix + Xmax/2, ymatrix + Ymax/2] = GlobalMapList[i].weight;  //присваеваем значение 2 всем препятствиям карты
+           }           
 
         }
        
